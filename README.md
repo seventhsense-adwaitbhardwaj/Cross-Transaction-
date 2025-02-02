@@ -28,7 +28,7 @@ Before running the application, ensure you have the following:
 
 ### 1. Clone the Repository
 ```
-https://github.com/Rushilz98/Crossbridge.git
+https://github.com/seventhsense-adwaitbhardwaj/Cross-Transaction-
 ```
 
 ## Step 3: Configure Constants
