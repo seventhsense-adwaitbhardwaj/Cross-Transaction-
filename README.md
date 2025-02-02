@@ -23,7 +23,7 @@ Before running the application, ensure you have the following:
 4. Solidity Code of Conduct : https://github.com/ethereum/solidity/blob/develop/CODE_OF_CONDUCT.md npm Code of Conduct : https://docs.npmjs.com/policies/conduct npm terms of use : https://docs.npmjs.com/policies/terms OpenZeppelin Terms of Service/Use: https://www.openzeppelin.com/tos
 
 ---
-
+youtube link for detailed instructions : https://youtu.be/-PyoQAZ6m7U 
 ## **Installation**
 
 ### 1. Clone the Repository
