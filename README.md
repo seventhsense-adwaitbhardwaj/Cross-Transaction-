@@ -20,6 +20,7 @@ Before running the application, ensure you have the following:
    - Obtain test ETH on the Sepolia network from a faucet (e.g., [Alchemy Sepolia Faucet](https://sepoliafaucet.com/)).
    - Obtain test MATIC on the Amoy network from a faucet (e.g., [Polygon Amoy Faucet](https://faucet.polygon.technology/)).
 3. **Node.js**: Ensure Node.js is installed on your system. Download it from [here](https://nodejs.org/).
+4. Solidity Code of Conduct : https://github.com/ethereum/solidity/blob/develop/CODE_OF_CONDUCT.md npm Code of Conduct : https://docs.npmjs.com/policies/conduct npm terms of use : https://docs.npmjs.com/policies/terms OpenZeppelin Terms of Service/Use: https://www.openzeppelin.com/tos
 
 ---
 
