@@ -1,0 +1,210 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.status {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #3498db;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* Form Styling */
+.section {
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Table Styling */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    table-layout: fixed; /* Ensures consistent column widths */
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    word-wrap: break-word; /* Break long words into multiple lines */
+    white-space: normal; /* Allow text to wrap */
+    vertical-align: top; /* Align content to the top */
+}
+
+/* Fixed Column Widths */
+.table th:nth-child(1),
+.table td:nth-child(1) {
+    width: 30%; /* Hash */
+}
+
+.table th:nth-child(2),
+.table td:nth-child(2) {
+    width: 15%; /* Timestamp */
+}
+
+.table th:nth-child(3),
+.table td:nth-child(3) {
+    width: 20%; /* Sender */
+}
+
+.table th:nth-child(4),
+.table td:nth-child(4) {
+    width: 20%; /* Receiver */
+}
+
+.table th:nth-child(5),
+.table td:nth-child(5) {
+    width: 15%; /* Amount */
+}
+
+.table th {
+    background-color: #3498db;
+    color: #fff;
+    position: sticky; /* Keep headers visible during scrolling */
+    top: 0;
+    z-index: 1;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    .table {
+        font-size: 0.9rem; /* Reduce font size on smaller screens */
+    }
+
+    .table th:nth-child(1),
+    .table td:nth-child(1) {
+        width: 40%; /* Adjust Hash column for smaller screens */
+    }
+
+    .table th:nth-child(2),
+    .table td:nth-child(2) {
+        width: 15%; /* Timestamp */
+    }
+
+    .table th:nth-child(3),
+    .table td:nth-child(3) {
+        width: 20%; /* Sender */
+    }
+
+    .table th:nth-child(4),
+    .table td:nth-child(4) {
+        width: 20%; /* Receiver */
+    }
+
+    .table th:nth-child(5),
+    .table td:nth-child(5) {
+        width: 15%; /* Amount */
+    }
+}
+
+/* Notifications Styling */
+.notifications {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.notification {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.notification.success {
+    background-color: #2ecc71;
+}
+
+.notification.error {
+    background-color: #e74c3c;
+}
+
+/* Loading Bar Styling */
+.loading-bar {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    z-index: 1000;
+}
